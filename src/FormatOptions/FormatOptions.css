@@ -1,0 +1,41 @@
+.formatBtn {
+    height: 26px;
+    background: #bbb6b669;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 0 13px;
+    border: 1px solid #c7bdbd;
+    position: relative;
+    font-weight: normal;
+}
+
+/* .formatBtn:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px solid #ffea00;
+  } */
+
+.formatInput {
+    height: 26px;
+    margin: 10px;
+    border-radius: 7px;
+    /* padding: 0 13px; */
+    border: 1px solid #989292;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.formatOptionsWrapper {
+    display: flex;
+}
